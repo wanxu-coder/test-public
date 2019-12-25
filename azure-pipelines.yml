@@ -17,6 +17,8 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     echo <a href="https://www.baidu.com">百度</a>
-    ifconfig
-    uname -a
+    alias test="ifconfig"
+    alias test1="uname -a"
+    test
+    test1
   displayName: 'Run a multi-line script'
